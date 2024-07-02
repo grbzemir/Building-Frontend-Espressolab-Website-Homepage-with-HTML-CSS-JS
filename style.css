@@ -390,3 +390,120 @@ header div:nth-child(3) ul li:hover {
     background-color: white;
     color: #38250f;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #231709;
+
+}
+
+footer .footers1 {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: justify;
+    padding: 30px 7vw;
+
+}
+
+footer .footers1 .ftr1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.ftr1,
+.ftr2,
+.ftr3,
+.ftr4 {
+    min-width: 200px;
+    max-width: 400px;
+}
+
+footer .ftr1 img {
+    width: 300px;
+}
+
+footer .ftr1 .sec5 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+
+footer .ftr1 .sec5 a {
+    margin-right: 5px;
+
+}
+
+footer .footers1 div h4 {
+    font-size: 18px;
+}
+
+footer .ftr2 a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+    font-size: 14px;
+
+}
+
+footer .ftr3 p {
+    width: 400px;
+    padding-top: 15px;
+    font-size: 14px;
+
+}
+
+footer .ftr4 p {
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+footer .ftr4 div {
+    border: 1px solid white;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+footer .ftr4 div input {
+    height: 30px;
+    background-color: transparent;
+    outline: 0;
+    border: none;
+    padding: 0 10px;
+    color: white;
+    width: 70%;
+
+}
+
+footer .ftr4 div input::placeholder {
+
+
+    color: rgba(255, 255, 255, 0.514)
+}
+
+
+footer .ftr4 div i {
+    padding: 0 15px;
+    cursor: pointer;
+
+}
+
+footer .footers2 {
+    padding: 15px;
+    margin: auto;
+}
