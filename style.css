@@ -291,3 +291,97 @@ header div:nth-child(3) ul li:hover {
     display: block;
 
 }
+
+
+.sec5 {
+    background-color: #38250f;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 50px;
+    color: white;
+    margin-bottom: 150px;
+
+}
+
+.sec5 h1 {
+    font-size: 2.4rem;
+
+}
+
+.sec5 .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.sec5 h3 {
+    font-size: 1.1rem;
+    padding: 10px 0;
+    padding-bottom: 5px;
+
+}
+
+.sec5 p,
+.sec5 pre {
+
+    font-size: 0.7rem;
+    margin-bottom: 10px;
+}
+
+.sec5 .container div:nth-child(2) {
+
+    margin-left: 0px;
+    width: 69%;
+
+}
+
+.sec5 form {
+    padding: 0 20px;
+}
+
+.sec5 input {
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    margin: 10px;
+    line-height: 20px;
+    color: white;
+
+}
+
+.sec5 input::placeholder {
+    color: rgba(265, 255, 265, 0.514);
+}
+
+.sec5 .btn-1 {
+    margin-top: 20px;
+}
+
+.sec5 .container div:nth-child(3) {
+    width: 2px;
+    height: 100px;
+    background-color: 70px;
+    margin-top: 70px 0;
+}
+
+.sec5 .container div:nth-child(4) {
+
+    display: Flex;
+    flex-direction: column;
+}
+
+.sec5 a {
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    margin: 10px 0;
+    transition: all 0.2s;
+}
