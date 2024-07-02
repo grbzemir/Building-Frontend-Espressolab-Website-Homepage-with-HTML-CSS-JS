@@ -385,3 +385,8 @@ header div:nth-child(3) ul li:hover {
     margin: 10px 0;
     transition: all 0.2s;
 }
+
+.sec5 a:hover {
+    background-color: white;
+    color: #38250f;
+}
